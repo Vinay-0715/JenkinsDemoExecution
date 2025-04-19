@@ -11,7 +11,7 @@ public class JenkinsTest {
 	{
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://demowebshop.tricentis.com/");
-		Reporter.log("Demo web shop launched sucessfully,true");
+		Reporter.log("Demo web shop launched sucessfully",true);
 	}
 
 }
